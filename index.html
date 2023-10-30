@@ -505,28 +505,32 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
+
         <form class="modal-form">
-          <label class="modal-lable"
-            >Name<input
-              class="modal-form-input"
-              type="name"
-              name="name"
-              autocomplete="off"
-          /></label>
-          <label class="modal-lable"
-            >Phone<input class="modal-form-input" type="tel" name="phone"
-          /></label>
-          <label class="modal-lable"
-            >Email<input class="modal-form-input" type="email" name="email"
-          /></label>
-          <label class="modal-lable"
-            >Comment
-            <textarea
-              class="modal-textarea-input"
-              name="coment"
-              placeholder="Text input"
-            ></textarea>
-          </label>
+          <div class="model-form-conainer">
+            <label class="modal-lable"
+              >Name<input
+                class="modal-form-input"
+                type="name"
+                name="name"
+                autocomplete="off"
+                for="user-name"
+            /></label>
+            <label class="modal-lable"
+              >Phone<input class="modal-form-input" type="tel" name="phone"
+            /></label>
+            <label class="modal-lable"
+              >Email<input class="modal-form-input" type="email" name="email"
+            /></label>
+            <label class="modal-lable"
+              >Comment
+              <textarea
+                class="modal-textarea-input"
+                name="coment"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
         </form>
       </div>
     </div>
