@@ -551,31 +551,31 @@
             </div>
           </div>
 
-          <label class="modal-lable"
+          <div class="modal-coment-conteiner"></div>
+          <label class="modal-lable" for="user-comment"
             >Comment
             <textarea
               class="modal-textarea-input"
-              name="coment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </label>
-          <label>
-            <div class="privacy-container">
-              <input
-                class="modal-checkbox"
-                type="checkbox"
-                name="privacy"
-                value="privacy"
-                id="privacy"
-              />
-              <p class="modal-form-p">
-                I accept the terms and conditions of the
-              </p>
-              <a class="privacy-link" href="">Privacy Policy</a>
-            </div>
-          </label>
+          <div class="modal-checkbox-conteiner">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
+            />
+            <label class="model-privacy-lable" for="user-privacy"
+              >I accept the terms and conditions of the
+              <span class="privacy-link"></span>
+            </label>
+          </div>
+
           <button class="modal-form-button" type="submit">Send</button>
-          <!-- </div> -->
         </form>
       </div>
     </div>
