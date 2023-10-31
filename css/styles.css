@@ -868,7 +868,12 @@ color: #8e8f99;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    
+}
+.visually-hidden:checked + .model-privacy-lable > .privacy-span{
+    background-color: #404BBF;
+        border: none;
+        fill: #FFFFFF;
+        border-color: #404BBF;
 }
 
 .privacy-link{
