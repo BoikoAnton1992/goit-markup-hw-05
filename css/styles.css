@@ -869,6 +869,11 @@ color: #8e8f99;
     justify-content: center;
     fill: transparent;
 }
+
+.privacy-span:checked{
+fill: #F4F4FD;
+}
+
 .visually-hidden:checked + .model-privacy-lable > .privacy-span{
     background-color: #404BBF;
         border: none;
