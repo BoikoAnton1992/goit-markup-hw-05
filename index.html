@@ -513,8 +513,9 @@
               <input
                 class="modal-form-input"
                 type="text"
-                name="user-name"
+                name="user_name"
                 id="user-name"
+                required
               />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
@@ -529,6 +530,7 @@
                 type="tel"
                 name="phone"
                 id="phone"
+                required
               />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -544,6 +546,7 @@
                 type="email"
                 name="email"
                 id="email"
+                required
               />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
@@ -555,7 +558,7 @@
             <label class="modal-lable" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea-input"
-              name="user-comment"
+              name="user_comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
@@ -564,9 +567,10 @@
             <input
               class="visually-hidden"
               type="checkbox"
-              name="user-privacy"
+              name="user_privacy"
               value="true"
               id="user-privacy"
+              required
             />
             <label class="model-privacy-lable" for="user-privacy">
               <span class="privacy-span">
